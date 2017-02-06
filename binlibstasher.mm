@@ -75,7 +75,8 @@ void loadDatabase(){
 		@"curl",
 		@"us.scw.afctwoadd",
 		@"com.saurik.afc2d",
-		@"taigafc2"
+		@"taigafc2",
+		@"com.rpetrich.rocketbootstrap"
 	];
 
 	NSArray *lists = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:@"/var/lib/dpkg/info" error:nil];
